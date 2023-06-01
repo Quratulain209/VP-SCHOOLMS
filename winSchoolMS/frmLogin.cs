@@ -33,7 +33,7 @@ namespace winSchoolMS
 
         private void label4_Click(object sender, EventArgs e)
         {
-            frmforgetpassword obj = new frmforgetpassword();
+            FrmForgetpassword obj = new FrmForgetpassword();
             obj.Show();
         }
 
@@ -45,7 +45,7 @@ namespace winSchoolMS
 
         private void label4_Click_1(object sender, EventArgs e)
         {
-            frmforgetpassword obj = new frmforgetpassword();
+            FrmForgetpassword obj = new FrmForgetpassword();
             obj.Show();
         }
 

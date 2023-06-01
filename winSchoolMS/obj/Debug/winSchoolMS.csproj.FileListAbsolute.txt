@@ -58,7 +58,6 @@ H:\VP-project-final-master\winSchoolMS\bin\Debug\winSchoolMS.exe
 H:\VP-project-final-master\winSchoolMS\bin\Debug\winSchoolMS.pdb
 H:\VP-project-final-master\winSchoolMS\obj\Debug\winSchoolMS.csproj.AssemblyReference.cache
 H:\VP-project-final-master\winSchoolMS\obj\Debug\winSchoolMS.csproj.SuggestedBindingRedirects.cache
-H:\VP-project-final-master\winSchoolMS\obj\Debug\winSchoolMS.frmEducationalDetails.resources
 H:\VP-project-final-master\winSchoolMS\obj\Debug\winSchoolMS.frmCourseAllocate.resources
 H:\VP-project-final-master\winSchoolMS\obj\Debug\winproject.frmCourseAllocateDetail.resources
 H:\VP-project-final-master\winSchoolMS\obj\Debug\winSchoolMS.frmforgetpassword.resources
@@ -81,3 +80,4 @@ H:\VP-project-final-master\winSchoolMS\obj\Debug\winSchoolMS.csproj.GenerateReso
 H:\VP-project-final-master\winSchoolMS\obj\Debug\winSchoolMS.csproj.CoreCompileInputs.cache
 H:\VP-project-final-master\winSchoolMS\obj\Debug\winSchoolMS.exe
 H:\VP-project-final-master\winSchoolMS\obj\Debug\winSchoolMS.pdb
+H:\VP-project-final-master\winSchoolMS\obj\Debug\winSchoolMS.frmStudentEducationalDetails.resources

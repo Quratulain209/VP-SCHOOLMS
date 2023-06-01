@@ -26,7 +26,7 @@ namespace winSchoolMS
 
         private void educationalInformationToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           frmEducationalDetails obj = new frmEducationalDetails();
+           frmStudentEducationalDetails obj = new frmStudentEducationalDetails();
             obj.Show();
         }
 
@@ -94,6 +94,12 @@ namespace winSchoolMS
         private void examinationDetailToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmExaminationDetail obj = new FrmExaminationDetail();
+            obj.Show();
+        }
+
+        private void viewAttendanceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAttendenceVeiw obj = new frmAttendenceVeiw();
             obj.Show();
         }
     }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace winSchoolMS
 {
-    public partial class frmforgetpassword : Form
+    public partial class FrmForgetpassword : Form
     {
-        public frmforgetpassword()
+        public FrmForgetpassword()
         {
             InitializeComponent();
         }

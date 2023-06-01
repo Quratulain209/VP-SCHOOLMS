@@ -1,6 +1,6 @@
 ﻿namespace winSchoolMS
 {
-    partial class frmforgetpassword
+    partial class FrmForgetpassword
     {
         /// <summary>
         /// Required designer variable.
@@ -67,7 +67,6 @@
             this.btnSave.TabIndex = 17;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = false;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // label1
             // 

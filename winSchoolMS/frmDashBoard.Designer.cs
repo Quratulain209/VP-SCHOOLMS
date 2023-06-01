@@ -53,6 +53,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.viewAttendanceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -116,7 +117,8 @@
             // 
             this.attendanceToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.studentToolStripMenuItem1,
-            this.teacherToolStripMenuItem1});
+            this.teacherToolStripMenuItem1,
+            this.viewAttendanceToolStripMenuItem});
             this.attendanceToolStripMenuItem.Name = "attendanceToolStripMenuItem";
             this.attendanceToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
             this.attendanceToolStripMenuItem.Text = "Attendance";
@@ -124,14 +126,14 @@
             // studentToolStripMenuItem1
             // 
             this.studentToolStripMenuItem1.Name = "studentToolStripMenuItem1";
-            this.studentToolStripMenuItem1.Size = new System.Drawing.Size(115, 22);
+            this.studentToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.studentToolStripMenuItem1.Text = "Student";
             this.studentToolStripMenuItem1.Click += new System.EventHandler(this.studentToolStripMenuItem1_Click);
             // 
             // teacherToolStripMenuItem1
             // 
             this.teacherToolStripMenuItem1.Name = "teacherToolStripMenuItem1";
-            this.teacherToolStripMenuItem1.Size = new System.Drawing.Size(115, 22);
+            this.teacherToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.teacherToolStripMenuItem1.Text = "Teacher";
             this.teacherToolStripMenuItem1.Click += new System.EventHandler(this.teacherToolStripMenuItem1_Click);
             // 
@@ -255,6 +257,13 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
+            // viewAttendanceToolStripMenuItem
+            // 
+            this.viewAttendanceToolStripMenuItem.Name = "viewAttendanceToolStripMenuItem";
+            this.viewAttendanceToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.viewAttendanceToolStripMenuItem.Text = "View Attendance";
+            this.viewAttendanceToolStripMenuItem.Click += new System.EventHandler(this.viewAttendanceToolStripMenuItem_Click);
+            // 
             // frmDashBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -302,6 +311,7 @@
         private System.Windows.Forms.ToolStripMenuItem courseAllocateDetailToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem examinationToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem examinationDetailToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viewAttendanceToolStripMenuItem;
     }
 }
 

@@ -47,11 +47,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmEducationalDetails.cs">
+    <Compile Include="frmStudentDetailsVeiw.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmEducationalDetails.Designer.cs">
-      <DependentUpon>frmEducationalDetails.cs</DependentUpon>
+    <Compile Include="frmStudentDetailsVeiw.Designer.cs">
+      <DependentUpon>frmStudentDetailsVeiw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStudentEducationalDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStudentEducationalDetails.Designer.cs">
+      <DependentUpon>frmStudentEducationalDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="frmCourseAllocate.cs">
       <SubType>Form</SubType>
@@ -65,11 +71,11 @@
     <Compile Include="frmCourseAllocateDetail.Designer.cs">
       <DependentUpon>frmCourseAllocateDetail.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmforgetpassword.cs">
+    <Compile Include="frmForgetpassword.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmforgetpassword.Designer.cs">
-      <DependentUpon>frmforgetpassword.cs</DependentUpon>
+    <Compile Include="frmForgetpassword.Designer.cs">
+      <DependentUpon>frmForgetpassword.cs</DependentUpon>
     </Compile>
     <Compile Include="frmStudentAttendance.cs">
       <SubType>Form</SubType>
@@ -151,14 +157,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="frmStudentDetailsVeiw.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmStudentDetailsVeiw.Designer.cs">
+    <EmbeddedResource Include="frmStudentDetailsVeiw.resx">
       <DependentUpon>frmStudentDetailsVeiw.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="frmEducationalDetails.resx">
-      <DependentUpon>frmEducationalDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStudentEducationalDetails.resx">
+      <DependentUpon>frmStudentEducationalDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCourseAllocate.resx">
       <DependentUpon>frmCourseAllocate.cs</DependentUpon>
@@ -166,8 +169,8 @@
     <EmbeddedResource Include="frmCourseAllocateDetail.resx">
       <DependentUpon>frmCourseAllocateDetail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmforgetpassword.resx">
-      <DependentUpon>frmforgetpassword.cs</DependentUpon>
+    <EmbeddedResource Include="frmForgetpassword.resx">
+      <DependentUpon>frmForgetpassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmStudentAttendance.resx">
       <DependentUpon>frmStudentAttendance.cs</DependentUpon>
@@ -212,9 +215,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmStudentDetailsVeiw.resx">
-      <DependentUpon>frmStudentDetailsVeiw.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
